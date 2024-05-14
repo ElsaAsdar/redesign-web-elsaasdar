@@ -59,6 +59,22 @@ body {
     color: #ddd;
 }
 
+/* Photo Description */
+.photo-description {
+    text-align: center;
+}
+
+.enlarged-photo {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.enlarged-text {
+    font-size: 1.25rem; /* 20px */
+}
+
 /* Footer */
 .footer {
     background: #333;
