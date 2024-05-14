@@ -130,6 +130,20 @@ body {
     padding: 20px;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 0;
+}
+
+.gallery-title {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -162,3 +176,4 @@ body {
     font-size: 16px;
     color: #333;
 }
+
