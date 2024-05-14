@@ -47,62 +47,48 @@ body {
 
 /* Navbar */
 /* CSS untuk Navigasi */
-.navbar-nav {
-    flex-direction: row;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.navbar-nav .nav-item {
-    margin-left: 15px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
 }
 
-.navbar-nav .nav-link {
-    color: #fff; /* Warna teks default */
-    padding: 10px 15px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.navbar-nav .nav-link:hover {
-    background-color: #f6f8f9;
-    color: #fff;
-}
-
-.navbar-nav .nav-item.active .nav-link {
-    background-color: #411212;
-    color: #fff;
-}
-
-.navbar-brand {
+.navbar-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
     font-weight: bold;
-    font-size: 1.5em;
-    color: #fff;
 }
 
-.navbar-toggler {
-    border: none;
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
 }
 
-.navbar-toggler:focus {
-    outline: none;
+.navbar-menu li {
+    margin-left: 20px;
 }
 
-.navbar-toggler-icon {
-    color: #fff;
+.navbar-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
 }
 
-@media (max-width: 768px) {
-    .navbar-nav {
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .navbar-nav .nav-item {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .navbar-nav .nav-link {
-        padding: 5px;
-    }
+.navbar-menu a:hover {
+    background-color: #575757;
+    border-radius: 4px;
 }
 
 .slide-image {
