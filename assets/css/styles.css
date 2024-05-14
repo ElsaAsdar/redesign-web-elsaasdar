@@ -174,8 +174,9 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 16px;
-    color: #f9f7f7;
+    color: #333;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -184,28 +185,29 @@ body {
 }
 
 .footer-1 {
-    background-color: #333;
-    color: #fff;
+    background-color: #f8f9fa; /* Ubah warna background jika diinginkan */
+    color: #333;
     padding: 40px 0;
 }
 
 .footer-widget_title {
     font-size: 1.2em;
     margin-bottom: 20px;
-    color: #fff;
-    position: relative;
+    color: #333;
+    text-align: center; /* Memastikan judul berada di tengah */
 }
 
 .footer-widget_title span {
     display: block;
     width: 40px;
     height: 2px;
-    background-color: #fff;
-    margin-top: 10px;
+    background-color: #333;
+    margin: 10px auto;
 }
 
 .footer-widget_body {
     margin-top: 10px;
+    text-align: center; /* Memastikan konten berada di tengah */
 }
 
 .footer-widget_body a {
@@ -231,4 +233,3 @@ body {
         width: 100%;
     }
 }
-
