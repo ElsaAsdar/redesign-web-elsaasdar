@@ -47,7 +47,7 @@ body {
 
 /* Navbar */
 .navbar {
-    
+
 }
 .navbar-nav .nav-item .nav-link {
     color: #fff;
@@ -61,4 +61,28 @@ body {
     object-fit: cover;
     height: 100%;
     width: 100%;
+}
+
+/* CSS styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.photo-description {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.photo-description img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.photo-description p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
 }
