@@ -124,6 +124,12 @@ body {
 .description p {
     line-height: 1.6;
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -132,18 +138,27 @@ body {
 }
 
 .img-wrapper {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.img-wrapper:hover {
+    transform: scale(1.05);
 }
 
 .img-wrapper img {
     width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
+    height: auto;
 }
 
-.img-wrapper:hover img {
-    transform: scale(1.1);
+.description {
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
 }
