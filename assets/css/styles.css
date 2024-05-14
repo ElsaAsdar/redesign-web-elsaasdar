@@ -65,14 +65,14 @@ body {
 
 /* CSS styling */
 .container {
-    max-width: 800px;
+    max-width: 500px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .photo-description {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .photo-description img {
