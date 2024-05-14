@@ -233,3 +233,51 @@ body {
         width: 100%;
     }
 }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2ecc71;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section {
+    color: white;
+    width: 30%;
+}
+
+h3 {
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.map {
+    margin-top: 20px;
+}
