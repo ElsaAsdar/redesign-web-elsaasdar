@@ -97,7 +97,7 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 70%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -114,11 +114,11 @@ body {
 }
 
 .description {
-    max-width: 600px;
+    max-width: 200px;
 }
 
 .description h2 {
-    margin-top: 0;
+    margin-top: 25;
 }
 
 .description p {
