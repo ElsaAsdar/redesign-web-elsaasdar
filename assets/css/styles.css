@@ -63,29 +63,3 @@ body {
     width: 100%;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
-}
-
-.photo-description {
-    margin-bottom: 30px;
-}
-
-.photo-description img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.photo-description h2 {
-    font-size: 15px;
-    margin-top: 10px;
-}
-
-.photo-description p {
-    font-size: 16px;
-    color: #666;
-}
