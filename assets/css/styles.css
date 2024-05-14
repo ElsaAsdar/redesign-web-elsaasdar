@@ -56,3 +56,13 @@ body {
 .navbar-nav .nav-item .nav-link:hover {
     color: #ddd;
 }
+
+.slide-image {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
