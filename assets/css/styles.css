@@ -16,7 +16,7 @@ body {
 
 /* Header */
 .header {
-    background: #a8f3e1;
+    background: #2e65f0;
     color: #fff;
     padding: 5px5;
 }
@@ -56,7 +56,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #8afded;
+    background-color: #333;
     padding: 10px 20px;
 }
 
@@ -174,7 +174,7 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 16px;
-    color: #2bd398;
+    color: #333;
 }
 
 body {
@@ -186,7 +186,7 @@ body {
 
 .footer-1 {
     background-color: #f8f9fa; /* Ubah warna background jika diinginkan */
-    color: #f6f1f1;
+    color: #333;
     padding: 40px 0;
 }
 
@@ -232,61 +232,4 @@ body {
     .footer-widget_body img {
         width: 100%;
     }
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #2ecc71;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    background-color: #A9DFBF;
-    margin: 20px auto;
-    padding: 20px;
-    border-radius: 10px;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.section {
-    color: white;
-    background-color: #16A085;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 30%;
-}
-
-h3 {
-    border-bottom: 2px solid white;
-    padding-bottom: 10px;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-p {
-    margin: 10px 0;
-}
-
-.map {
-    margin-top: 20px;
 }
