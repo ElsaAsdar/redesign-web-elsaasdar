@@ -114,11 +114,11 @@ body {
 }
 
 .description {
-    max-width: 200px;
+    max-width: 400px;
 }
 
 .description h2 {
-    margin-top: 5;
+    margin-top: 0;
 }
 
 .description p {
