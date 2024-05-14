@@ -62,3 +62,13 @@ body {
     height: 100%;
     width: 100%;
 }
+
+.photo-container {
+    text-align: center;
+    margin-top: 15px;
+}
+.description {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
