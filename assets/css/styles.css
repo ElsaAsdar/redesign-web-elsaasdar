@@ -63,12 +63,29 @@ body {
     width: 100%;
 }
 
-.photo-container {
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
     text-align: center;
-    margin-top: 100px;
 }
-.description {
-    font-size: 25px;
-    color: #333;
-    margin-top: 100px;
+
+.photo-description {
+    margin-bottom: 50px;
+}
+
+.photo-description img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo-description h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.photo-description p {
+    font-size: 16px;
+    color: #666;
 }
