@@ -83,22 +83,6 @@ body {
     color: #fff;
 }
 
-@media (max-width: 768px) {
-    .navbar-nav {
-        flex-direction: column;
-        width: 100%;
-}
-
-    .navbar-nav .nav-item {
-        margin-left: 0;
-        text-align: center;
-}
-
-    .navbar-nav .nav-link {
-        padding: 5px;
-}
-}
-
 .slide-image {
     object-fit: cover;
     height: 100%;
