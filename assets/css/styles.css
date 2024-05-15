@@ -299,7 +299,7 @@ footer {
 
 #map {
     height: 300px;
-    width: calc(100% - 420px); /* Mengurangi lebar kontak info agar map menyesuaikan */
+    width: calc(100% - 300px); /* Mengurangi lebar kontak info agar map menyesuaikan */
     flex: 2;
     min-width: 300px;
 }
