@@ -247,13 +247,16 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .contact-info {
@@ -292,7 +295,6 @@ footer {
 
 #map {
     height: 300px;
-    width: 100%;
+    width: calc(100% - 420px); /* Mengurangi lebar kontak info agar map menyesuaikan */
     flex: 2;
-    min-width: 300px;
 }
