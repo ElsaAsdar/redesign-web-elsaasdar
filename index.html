@@ -189,7 +189,11 @@
         <!-- Your other content here -->
     </body>
     <body>
+        <div class="content">
+            <h1>Contoh Footer dengan Peta</h1>
+            <p>Ini adalah sebuah contoh footer yang berisi informasi kontak dan peta.</p>
         </div>
+        
         <footer>
             <div class="footer-content">
                 <div class="left-section">
@@ -212,8 +216,15 @@
                         </ul>
                     </div>
                 </div>
+                <div id="map"></div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SMAN 13 Wajo. All rights reserved.</p>
             </div>
         </footer>
+    
+        <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+        <script src="script.js"></script>
     </body>
     </html>
     <script src="assets/js/bootstrap.min.js"></script>
