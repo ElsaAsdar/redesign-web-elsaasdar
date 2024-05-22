@@ -1,12 +1,12 @@
 # redesign-web-elsaasdar
 
 
-# Before
+# Before redesign website
 ### Dibagian header, bisa dilihat bagian navbar dan header terlihat berantakan. Selanjutnya, dibagian konten kiri kanan menurut saya memenuhi isi awal tampilan website sehingga pengguna merasa kurang nyaman. Di bagian isi konten kelihatan terlalu memanjang hingga bawah. Di bagian footer pun seharusnya tidak perlu ada konten karena bukan termasuk bagian isinya.
 ![text](https://github.com/ElsaAsdar/redesign-web-elsaasdar/blob/main/Screenshot/screencapture-sman13wajo-sch-id-2024-05-22-14_34_27.png)
 
 
-# After
+# After redesign website
 ### 1. Saya memasukkan logo, nama, dan alamat sekolah di bagian header untuk sebuah perkenalan
 ### 2. Saya juga membuat navbar sendiri untuk menu-menu yang tadinya berantakan agar lebih rapi
 ### 3. Saya juga menambahkan foto sekolah supaya pengguna bisa mengetahui bangunan sekolahnya seperti apa
