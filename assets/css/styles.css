@@ -237,7 +237,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    font-size: 16px; /* Ukuran font yang sedang */
+    font-size: 16px; /* Mengatur ukuran font yang sedang */
 }
 
 .content {
@@ -248,21 +248,25 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 20px;
-    box-sizing: border-box; /* Memastikan padding tidak mengganggu lebar total */
     width: 100%;
-    position: relative;
 }
 
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
+    flex-wrap: nowrap;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    flex: 1;
+    margin-right: 20px;
 }
 
 .contact-info, .social-media {
-    max-width: 400px;
     margin-bottom: 20px;
 }
 
@@ -299,8 +303,9 @@ footer {
 
 #map {
     height: 300px;
-    width: 100%; /* Mengatur peta agar memanjang penuh */
-    margin-bottom: 20px; /* Memberi jarak antara peta dan elemen footer bawah */
+    width: calc(100% - 420px); /* Mengurangi lebar kontak info agar map menyesuaikan */
+    flex: 2;
+    min-width: 300px;
 }
 
 .footer-bottom {
